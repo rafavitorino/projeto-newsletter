@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 
-    <link rel="stylesheet" href="css/inicio.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="shortcut icon" href="midia/Web/icons8-newsletter-doodle-32.png" type="image/x-icon">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+    </style> 
 
-    <title>Simple Fly - Newsletter(Saudades)</title>
+    <title>Newsletter</title>
 </head>
 <body>
-    <form action="php/mandar.php" method="POST">
-        <input type="email" name="email" placeholder="E-mail" id="input-email">
-        <input class="btn" type="submit" value=">">
-    </form>
-    <img class="banner" src="midia/banner-newsletter.gif" alt="">
+    <div class="main-box">
+        <img class="banner" src="midia/icon-email.png" alt="">
+        <p>
+            Deseja receber nossas melhores notícias de primeira mão no seu celular?<br>
+            Só digitar seu melhor email e ficar ligado!
+        </p>
+        
+            <form action="php/mandar.php" method="POST">
+            <input type="email" name="email" placeholder="E-mail" id="input-email">
+            <input class="btn" type="submit" value=">">
+            </form>
+        
+    </div>
+
 
 </body>
 </html>
