@@ -14,11 +14,12 @@ html body{
     margin-top: 50px;
     border-radius: 20px;
 
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.623);
     
 }
 #input-email{
     position: absolute;
-    top: 60%;
+    top: 63%;
     right: 43%;
 
     width: 300px;
@@ -35,7 +36,7 @@ html body{
 }
 .btn{
     position: absolute;
-    top: 60%;
+    top: 63%;
     right: 40%;
 
     width: 40px;
